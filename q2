@@ -1,0 +1,16 @@
+d = int(input('dia: '))
+m = int(input('mês: '))
+a = int(input('ano: '))
+if m < 1 or m > 12:
+  	  print('Data inválida')
+elif m in [1, 3, 5, 7, 8, 10, 12] and (d < 1 or d > 31):
+    	print('data inválida')
+elif m in [4, 6, 9, 11] and (d < 1 or d > 30):
+ 	print('data inválida')
+elif m == 2:
+    	if d < 1 or d > 28:
+        	print('data inválida')
+    	else:
+        	print('data válida')
+else:
+    	print('data válida')
