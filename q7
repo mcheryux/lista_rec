@@ -1,0 +1,9 @@
+b = input('digite 8 bits (0 e 1) separados em espaços: ')
+zeros = 0
+uns = 0
+for b in b:
+    	if b == "0":
+        	zeros += 1
+    	elif b == "1":
+        	uns += 1
+        	print('o byte digitado contém {} 0s e {} 1s.'.format(zeros, uns))
