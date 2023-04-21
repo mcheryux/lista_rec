@@ -1,0 +1,5 @@
+n = float(input('informe um número: '))
+if (n % 3 == 0) or (n % 7 == 0):
+   	print('este número é divisível por 3 e 7')
+else:
+    	print('não é divisível')
