@@ -1,0 +1,17 @@
+d = int(input('escreva um número de 1 a 7 para ver seu respectivo dia da semana: '))
+if d == 1:
+    	print('domingo')
+elif d == 2:
+    	print('segunda')
+elif d == 3:
+    	print('terça')
+elif d == 4:
+    	print('quarta')
+elif d == 5:
+    	print('quinta')
+elif d == 6:
+   	print('sexta')
+elif d == 7:
+    	print('sábado')
+else:
+    	print('não existe dia da semana com esse número')
