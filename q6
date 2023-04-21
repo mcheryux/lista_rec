@@ -1,0 +1,11 @@
+i = int(input('informe a idade do jogador: '))
+if i == 5 or i <= 7:
+    	print('infantil A')
+elif i == 8 or i <= 11:
+    	print('infantil B')
+elif i == 12 or i == 13:
+    	print('juvenil A')
+elif i == 14 or i <= 17:
+    	print('juvenil B')
+else:
+    	print('adulto')
