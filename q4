@@ -1,0 +1,5 @@
+n = float(input('digite um número: '))
+if n > 0:
+ 	print('a raíz é ', (n ** 1/2))
+else:
+  	print('número inválido')
