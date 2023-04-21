@@ -1,0 +1,13 @@
+a = float(input('digite sua altura: '))
+p = float(input('digite seu peso: '))
+imc = p/(a**2)
+if imc < 20:
+    	print('abaixo do peso')
+elif imc < 25:
+    	print('peso normal')
+elif imc < 30:
+    	print('sobre peso')
+elif imc < 40:
+    	print('obeso')
+else:
+    	print('obeso mórbido')
